@@ -1,24 +1,20 @@
 import React from 'react';
 import './Footer.css';
 import CommentIcon from '@material-ui/icons/ModeCommentOutlined';
-import AutorenewIcon from '@material-ui/icons/Autorenew';
+import AutorenewIcon from '@material-ui/icons/SyncOutlined';
 import FavoriteIcon from '@material-ui/icons/FavoriteBorder';
 import UnreadIcon from '@material-ui/icons/MarkunreadOutlined';
 
 const Footer = () => (
   <div className='footer-container'>
+      <CommentIcon className='icon' onClick={() => alert('You left a comment')} />
     <span>
-      <CommentIcon />
+      <AutorenewIcon onClick={() => alert('You shared this content')} />&nbsp;6
     </span>
     <span>
-      <AutorenewIcon />&nbsp;6
+      <FavoriteIcon onClick={() => alert('You liked this content')} />&nbsp;4
     </span>
-    <span>
-      <FavoriteIcon />&nbsp;4
-    </span>
-    <span>
-      <UnreadIcon />
-    </span>
+      <UnreadIcon onClick={() => alert('You\'ve read this content')} className='icon' />
   </div>
 );
 

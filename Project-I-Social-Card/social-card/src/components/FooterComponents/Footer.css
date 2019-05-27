@@ -4,7 +4,7 @@
   margin-top: 1em;
 }
 
-.footer-container span {
+.footer-container .icon, .footer-container span {
   display: flex;
   justify-content: center;
   margin-right: 3em;
