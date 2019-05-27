@@ -16,9 +16,9 @@ const headerInfo = {
 }
 
 const HeaderContainer = () => (
-  <section>
+  <section className='header-container'>
     <ImageThumbnail url={headerInfo.url} />
-    <div>
+    <div className='text-content'>
       <HeaderTitle title={headerInfo.title} handle={headerInfo.handle} timeStamp={headerInfo.timeStamp} />
       <HeaderContent text={headerInfo.text} />
     </div>

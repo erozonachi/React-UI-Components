@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9%;
+}
+.logo-container img {
+  width: 100%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.text-content .title {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: .5em;
+}
+
+.title h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-right: .5em;
+}
+
+.title span {
+  color: #aaa;
+}

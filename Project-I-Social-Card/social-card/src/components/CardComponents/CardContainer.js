@@ -13,6 +13,7 @@ const cardInfo = {
 };
 const CardContainer = (props) => (
   <a 
+    className='card-container'
     href={props.url}
   >
    <CardBanner url={cardInfo.url} />
