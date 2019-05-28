@@ -7,7 +7,7 @@ const ButtonGroup = (props) => (
   <div 
   className={props.groupStyle}
 >
-  {props.buttons.map(btn => <NumberButton key={`${btn.id}`} buttonStyle={btn.style} text={btn.text} />)}
+  {props.buttons.map(btn => <NumberButton key={`${btn.id}`} buttonStyle={btn.style} text={btn.text} clickHandler={props.clickHandler} resultHandler={props.resultHandler} />)}
 </div>
 );
 

@@ -1,8 +1,5 @@
 .group-row {
   display: flex;
-  justify-content: stretch;
-  align-items: stretch;
-  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -10,4 +7,10 @@
   display: flex;
   flex-direction: column;
   width: 25%;
+}
+
+.number-group {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
 }

@@ -81,12 +81,13 @@
 - [x] Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
 - [x] Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 - [x] Create a `<ButtonGroup />` component that will be used to hold any number of `<NumberButton />` component.
+- [x] Create a `<NumberGroup />` component that will be used to hold any number of `<ButtonGroup />` component.
 
 #### Project 2 Stretch Problems
 
 - [x] Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
   - [x] On your state object be sure to include a property for the `total` that can be passed down to your `<CalculatorDisplay />` component.
-- Create some `handler functions` that can take in some information from an, `onClick` and use that information to update the `total` on the App state.
+- [x] Create some `handler functions` that can take in some information from an, `onClick` and use that information to update the `total` on the App state.
 
   - `this.setState` will be your best friend here :)
 
