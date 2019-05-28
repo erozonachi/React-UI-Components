@@ -84,8 +84,8 @@
 
 #### Project 2 Stretch Problems
 
-- Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
-  - On your state object be sure to include a property for the `total` that can be passed down to your `<CalculatorDisplay />` component.
+- [x] Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
+  - [x] On your state object be sure to include a property for the `total` that can be passed down to your `<CalculatorDisplay />` component.
 - Create some `handler functions` that can take in some information from an, `onClick` and use that information to update the `total` on the App state.
 
   - `this.setState` will be your best friend here :)
