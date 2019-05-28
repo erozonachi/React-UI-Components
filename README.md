@@ -80,6 +80,7 @@
 
 - [x] Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
 - [x] Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
+- [x] Create a `<ButtonGroup />` component that will be used to hold any number of `<NumberButton />` component.
 
 #### Project 2 Stretch Problems
 
