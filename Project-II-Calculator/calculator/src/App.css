@@ -1,0 +1,19 @@
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: .5px solid #aaa;
+}
+
+.calc-container .btn-container {
+  display: flex;
+  width: 100%;
+  border-right: .5px solid #aaa;
+  border-bottom: .5px solid #aaa;
+}
+
+.btn-container .numbers {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}

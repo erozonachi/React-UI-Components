@@ -1,0 +1,13 @@
+.group-row {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.group-column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}

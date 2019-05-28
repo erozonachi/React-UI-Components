@@ -1,0 +1,29 @@
+.action-btn, .number-btn, .operator-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 0;
+  outline: 0;
+  border-radius: 0;
+  border: .5px solid #aaa;
+  font-size: inherit;
+  font-weight: initial;
+  cursor: pointer;
+}
+
+.action-btn, .operator-btn {
+  width: 100%;
+}
+
+.number-btn {
+  width: 33.33%;
+}
+
+.operator-btn {
+  background-color: #a0001e;
+  color: #ffffff;
+}
+
+.bold-font {
+  font-weight: bold;
+}
