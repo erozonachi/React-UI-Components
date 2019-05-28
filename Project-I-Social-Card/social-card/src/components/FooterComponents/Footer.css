@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  width: 90%;
+  margin-top: 1em;
+}
+
+.footer-container .icon, .footer-container span {
+  display: flex;
+  justify-content: center;
+  margin-right: 3em;
+  color: #aaa;
+  cursor: pointer;
+}
