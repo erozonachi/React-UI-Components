@@ -78,7 +78,7 @@
 <button className={props.buttonStyle}>{props.text}</button>
 ```
 
-- Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
+- [x] Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
 - Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 
 #### Project 2 Stretch Problems
